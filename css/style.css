@@ -1,0 +1,119 @@
+
+html, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1em;
+}
+
+.wrapper{
+    overflow-x: hidden;
+}
+
+
+.shadow-bottom{
+    box-shadow: 0 2px 20px 2px rgb(201, 200, 200);
+    -moz-box-shadow: 0 2px 20px 2px rgb(201, 200, 200);
+    -webkit-box-shadow: 0 2px 20px 2px rgb(201, 200, 200);
+    -o-box-shadow: 0 2px 20px 2px rgb(201, 200, 200);
+}
+
+
+/* navigation  */
+.brand-holder{
+    padding: 2% 0 4% 5%;
+}
+
+
+/* head section */
+.beauty-text{
+    font-size: 4rem;
+}
+
+.beauty-others{
+    font-weight: normal;
+}
+
+.text-div{
+    margin-bottom: 6%;
+    padding: 0;
+}
+
+/* count */
+.count-box{
+    padding: 2%;
+    border: 1px solid black;
+    margin-right: 4%;
+    
+}
+
+.count-time{
+    margin-right: 6%;
+    margin-top: 4%;
+}
+
+.count-holder{
+    margin-top: 4%;
+}
+
+.head-section{
+    padding: 0 4%;
+}
+
+/* form */
+.email-input{
+    border: 1px solid black;
+    padding: 1.5%;
+    margin-right: 3%;
+    width: 40%;
+}
+
+.notify-btn{
+    background-color: black;
+    color: white;
+    padding: 1.7% 6%;
+    border: none;
+    width: 40%;
+}
+
+.notify-btn:hover{
+    background-color: rgb(34, 33, 33);
+    
+}
+
+.header-img{
+    width: 94%;
+    
+}
+
+.headertext-holder{
+    padding: 14% 0 10% 0;
+}
+
+
+
+/* media queries */
+
+@media  only screen and (max-width:1135px)and (min-width:767px){
+    .header-img{
+        width: 135% !important;
+        
+    }
+}
+
+@media  only screen and (max-width:768px){
+    .header-img{
+        width: 100%;
+        
+    }
+
+    .beauty-text{
+        font-size: 3rem;
+    }
+    
+}
+
+
+

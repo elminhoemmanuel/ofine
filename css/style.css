@@ -4,7 +4,7 @@ html, body{
     margin: 0;
     padding: 0;
     overflow-x: hidden !important;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 1em;
 }
 
@@ -39,6 +39,10 @@ html, body{
 .text-div{
     margin-bottom: 6%;
     padding: 0;
+}
+
+.text-up h2{
+    font-family: 'Lora', serif;
 }
 
 /* count */

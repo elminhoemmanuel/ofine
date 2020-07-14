@@ -109,6 +109,10 @@ html, body{
         
     }
 
+    .email-input, .notify-btn{
+        width: 45%;
+    }
+
     .beauty-text{
         font-size: 3rem;
     }

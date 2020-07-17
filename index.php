@@ -5,7 +5,7 @@
         /* Attempt MySQL server connection. Assuming you are running MySQL
         server with default setting (user 'root' with no password) */
 
-        $link = mysqli_connect("localhost", "root", "", "ofine");
+        $link = mysqli_connect("x40p5pp7n9rowyv6.cbetxkdyhwsb.us-east-1.rds.amazonaws.com", "r7jot1b7atzq87db", "cwwbjro9yab9z9n2 ", " 	liq54e29xtvf4ukl");
 
         // Check connection
 

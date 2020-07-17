@@ -20,10 +20,14 @@ html, body{
     -o-box-shadow: 0 2px 20px 2px rgb(201, 200, 200);
 }
 
+.lora{
+    font-family: 'Lora', serif;
+}
+
 
 /* navigation  */
 .brand-holder{
-    padding: 2% 0 4% 5%;
+    padding: 2% 0 4% 8%;
 }
 
 
@@ -63,7 +67,7 @@ html, body{
 }
 
 .head-section{
-    padding: 0 4%;
+    padding: 0 7%;
 }
 
 /* form */
@@ -96,6 +100,153 @@ html, body{
     padding: 14% 0 10% 0;
 }
 
+/* how it works section */
+.row2{
+    display: none;
+}
+
+.hiw-holder{
+    background-image: url("../images/brown-shade.jpg");
+    /* height: 550px; */
+    position: relative;
+    background-size: cover;
+    padding-bottom: 6%;
+    
+}
+
+.features{
+    display: flex;
+    margin-bottom: 1.5%;
+    
+}
+
+.sample{
+    width: 95%;
+    position: absolute;
+    top: 19%;
+    left: 10%;
+    border:none;
+}
+
+.expl-holder{
+    padding:6% 2% 5% 7%;
+}
+
+.video-holder{
+    padding: 8% 7%;
+    position: relative;
+}
+
+.expl-header{
+    margin-bottom: 4%;
+}
+
+.features-text{
+    padding-left: 3%;
+}
+
+.stroke{
+    position: absolute;
+    right: 4%;
+    top: 100%;
+    width: 50%;
+    height: 25%;
+}
+
+
+/* demo section */
+
+.demo-head-holder{
+    padding: 9% 0;
+}
+
+.details-holder{
+    padding: 18% 3% 6% 7%;
+}
+
+.demo{
+    margin-bottom: 30%;
+}
+
+
+.carousel{
+    position: relative;
+}
+
+.carousel-icons{
+    position: absolute;
+    top: 110%;
+    background-color: #b17036;
+    width: 12%;
+}
+
+.left{
+    left: 290%;
+}
+
+.right{
+    right: 290%;
+}
+
+.view-btn{
+    background-color: black;
+    color: white;
+    padding: 2% 8%;
+    border: none;
+    margin-top: 3%;
+    width: 40%;
+}
+
+.demo-expl{
+    padding-left: 7%;
+}
+
+.design-holder{
+    padding-left: 7%;
+}
+
+
+
+
+
+/* footer section */
+footer{
+    padding-top: 35% !;
+    position: relative;
+}
+.footer-container{
+    background-image: url("../images/brown-shade.jpg");
+    background-size: cover;
+    padding: 15% 7% 5% 7%;
+    
+}
+
+.footer-notify{
+    background-color: white;
+    position: absolute;
+    left: 8%;
+    bottom: 68%;
+    padding: 6% 13% ;
+    width: 75%;
+}
+
+/* .email-footer{
+    padding: 2% 5% !important;
+}
+
+.footer-notify.notify-btn{
+    width: 20%;
+} */
+
+.sm-icons{
+    color: black;
+    font-size: 2rem;
+}
+
+.footer-holder{
+    padding-top: 6%;
+}
+
 
 
 /* media queries */
@@ -105,6 +256,30 @@ html, body{
         width: 135% !important;
         
     }
+}
+
+@media  only screen and (min-width:768px){
+    .hiw-holder{
+        margin-bottom: 7%;
+    }
+
+
+}
+
+@media  only screen and (min-width:768px)and (max-width:997px){
+
+    .sample{
+        top: 30%;
+    }
+
+}
+
+@media  only screen and (min-width:768px)and (max-width:900px){
+
+    .details-holder{
+        padding-top: 25%;
+    }
+
 }
 
 @media  only screen and (max-width:768px){
@@ -119,6 +294,73 @@ html, body{
 
     .beauty-text{
         font-size: 3rem;
+    }
+
+    .row1{
+        display: none;
+    }
+
+    .row2{
+        display: block;
+    }
+
+    .stroke{
+        display: none;
+    }
+
+    .expl-holder{
+        padding:10% 2% 10% 8%;
+    }
+
+    .carousel-icons{
+        width: 26%;
+    }
+
+    .rights-holder{
+        text-align: center;
+    }
+
+    .footer-container{
+        padding-top: 30% !important;
+    }
+
+    .demo{
+        margin-bottom: 50% !important;
+    }
+
+    .footer-cards{
+        margin-top: 7%;
+    }
+
+    .footer-notify{
+        bottom: 75%;
+        width: 85%;
+    }
+
+
+    .expl-header{
+        margin-bottom: 7%;
+    }
+
+    .details-holder{
+        padding-left: 12% !important;
+    }
+
+    .video-holder{
+        padding-bottom: 12% ;
+        text-align: center;
+    }
+
+    .hiw-holder{
+        padding-bottom: 63%;
+    }
+
+    .sample{
+        width: 80%;
+    }
+
+    .design-holder{
+        text-align: center;
     }
     
 }

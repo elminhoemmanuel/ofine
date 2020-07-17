@@ -20,4 +20,17 @@ $(document).ready(function(){
 
         
     });
+
+    $(".swipebox").click(function(){
+        $( '.swipebox' ).swipebox({
+            hideCloseButton:false
+        });
+    });
+    $(".view-btn").click(function(){
+        $( '.swipebox' ).swipebox();
+    });
+
+    // $(".swipebox").click(function(){
+    //     $( '.swipebox' ).swipebox();
+    // });
 })

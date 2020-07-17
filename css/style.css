@@ -361,11 +361,16 @@ footer{
 
     .sample{
         width: 95%;
-        height: 420%;
+        height: 450%;
+        transform: rotate(30deg);
     }
 
     .design-holder{
         text-align: center;
+    }
+
+    .demo-head-holder{
+        padding-top: 12%;
     }
     
 }

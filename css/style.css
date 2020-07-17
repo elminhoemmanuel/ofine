@@ -167,7 +167,7 @@ html, body{
 }
 
 .demo{
-    margin-bottom: 30%;
+    margin-bottom: 20%;
 }
 
 
@@ -371,6 +371,9 @@ footer{
 
     .demo-head-holder{
         padding-top: 12%;
+    }
+    .demo{
+        margin-bottom: 30%;
     }
     
 }

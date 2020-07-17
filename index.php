@@ -31,137 +31,404 @@
     }
 ?>
 
+
 <!doctype html>
-    <html lang="eng">
-        <head>
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-            <!-- favicon -->
-            <link rel="icon" href="images/favicon.ico">
-
-
-            <!-- Bootstrap link -->
-            <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-            <!-- google fonts link -->
-            <link href="https://fonts.googleapis.com/css2?family=Lora&family=Noto+Sans&display=swap" rel="stylesheet"> 
-            <!-- font awesome link -->
-            <script src="https://kit.fontawesome.com/9cee552667.js" crossorigin="anonymous"></script>
-
-            <!-- unicon link -->
-            <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.9/css/unicons.css">
+        <!-- favicon -->
+        <link rel="icon" href="images/favicon.ico">
 
 
-            <!-- css stylesheet link -->
-            <link rel="stylesheet" type="text/css" href="css/style.css">
-            <!-- AOS link -->
-            <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- Bootstrap link -->
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-            <title>Plan&Perfection</title>
+        <!-- google fonts link -->
+        <link href="https://fonts.googleapis.com/css2?family=Lora&family=Noto+Sans&display=swap" rel="stylesheet"> 
+        <!-- font awesome link -->
+        <script src="https://kit.fontawesome.com/9cee552667.js" crossorigin="anonymous"></script>
 
-            <!-- iconify link -->
-            <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+        <!-- unicon link -->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.9/css/unicons.css">
+
+        <!-- swipebox css -->
+        <link rel="stylesheet" href="swipebox-master/src/css/swipebox.css">
+
+
+        <!-- css stylesheet link -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!-- AOS link -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <title>Plan&Perfection</title>
+
+        <!-- iconify link -->
+        <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+        
+    </head>
+
+    
+    <body class="body">
+
+        <div class="wrapper">
+    
             
-        </head>
-
+            <header id="header" class="">
+               <div class="header-container">
+                    <nav>
+                        <div class="nav-lg">
+                            <div class="brand-holder"><a href="#home"><img src="images/logo.jpg" alt=""></a></div>
+                            
+                        </div>
         
-        <body class="body">
-
-            <div class="wrapper">
-        
-                
-                <header id="header" class="">
-                <div class="header-container">
-                        <nav>
-                            <div class="nav-lg">
-                                <div class="brand-holder"><a href="#home"><img src="images/logo.jpg" alt=""></a></div>
-                                
-                            </div>
-            
-                        </nav>
-                        
-                </div>
-                </header>
-        
-                <main>
-                    <section class="head-section">
-                        <div class="container-fluid head-holder">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="headertext-holder">
-                                        <div class="text-up text-div">
-                                            <h2><span class="beauty-others">A New Age Of</span>&nbsp;<span class="beauty-text font-weight-bold">Beauty</span></h2>
-                                            <p>O-Fine helps you find your perfect foundation, 
-                                            concealer and powder shade easily, to give your skin the flawless finish it deserves.</p>
-                                        </div>
-                                        <div class="text-midle text-div">
-                                            <p class="font-weight-bold">WE OFFICIALLY LAUNCH ON</p>
-                                            <p class="count-holder"><span class="count-box">95</span>&nbsp;&nbsp;:&nbsp;&nbsp;<span class="count-box">02</span>&nbsp;&nbsp;:&nbsp;&nbsp;
-                                                <span class="count-box">17</span></p>
-                                            <p><span class="count-time">Days</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="count-time">Hours</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                <span class="count-time">Mins</span></p>
-        
-                                        </div>
-        
-                                        <div class="text-down">
-                                            <p class="font-weight-bold">GET NOTIFIED </p>
-                                            <form action="" method="POST">
-                                                <input type="email" class="email-input" placeholder="Enter Your Email" name="email">
-                                                <input type="submit" value="NOTIFY ME" class="notify-btn" name="submit">
-                                            </form>
-        
-                                        </div>
-
+                    </nav>
+                     
+               </div>
+            </header>
+    
+            <main>
+                <!-- head top section -->
+                <section class="head-section">
+                    <div class="container-fluid head-holder " data-aos="zoom-in-up" data-aos-duration="1500">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="headertext-holder">
+                                    <div class="text-up text-div">
+                                        <h2><span class="beauty-others">A New Age Of</span>&nbsp;<span class="beauty-text font-weight-bold">Beauty</span></h2>
+                                        <p>O-Fine helps you find your perfect foundation, 
+                                        concealer and powder shade easily, to give your skin the flawless finish it deserves.</p>
                                     </div>
-
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="headerimg-holder">
-                                        <img src="images/header-img.jpg" alt="" class="header-img">
-
+                                    <div class="text-midle text-div">
+                                        <p class="font-weight-bold">WE OFFICIALLY LAUNCH ON</p>
+                                        <p class="count-holder"><span class="count-box">95</span>&nbsp;&nbsp;:&nbsp;&nbsp;<span class="count-box">02</span>&nbsp;&nbsp;:&nbsp;&nbsp;
+                                            <span class="count-box">17</span></p>
+                                        <p><span class="count-time">Days</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="count-time">Hours</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <span class="count-time">Mins</span></p>
+    
+                                    </div>
+    
+                                    <div class="text-down">
+                                        <p class="font-weight-bold">GET NOTIFIED </p>
+                                        <form action="" method="POST">
+                                            <input type="email" class="email-input" placeholder="Enter Your Email" name="email">
+                                            <input type="submit" value="NOTIFY ME" class="notify-btn" name="submit">
+                                        </form>
+    
                                     </div>
 
                                 </div>
 
                             </div>
+                            <div class="col-md-6">
+                                <div class="headerimg-holder">
+                                    <img src="images/header-img.jpg" alt="" class="header-img ">
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </section>
+
+                <!-- how it works(hiw) section -->
+                <section class="hiw">
+                    <div class="container-fluid hiw-holder">
+                        <div class="row row1 " data-aos="zoom-in-up" data-aos-duration="1500">
+                            <div class="video-holder col-lg-6 col-md-6">
+                                <img src="images/gif-img.gif" alt="" class="sample">
+                            </div>
+                            <div class="expl-holder col-lg-6 col-md-6">
+                                <h2 class="lora font-weight-bold expl-header">How It Works</h2>
+                                <div class="features">
+                                    <div>
+                                        <img src="images/camera.svg" alt="" >
+                                    </div>
+                                    <div class="features-text">
+                                        <h6 class="font-weight-bold">Take a photo</h6>
+                                        <p>Take a photo of your face in natural lighting.</p>
+                                    </div>
+
+                                </div>
+                                <div class="features">
+                                    <div>
+                                        <img src="images/brush.svg" alt="">
+                                    </div>
+                                    <div class="features-text">
+                                        <h6 class="font-weight-bold">Find your make up shade</h6>
+                                        <p>We analyse your skin tone to find your accurate foundation, concealer or powder shade across thousands of brands.</p>
+                                    </div>
+
+                                </div>
+                                <div class="features">
+                                    <div>
+                                        <img src="images/bag.svg" alt="">
+                                    </div>
+                                    <div class="features-text">
+                                        <h6 class="font-weight-bold">Shop for make up</h6>
+                                        <p>Shop for the best quality make up from over 2000 brand stores worlwide.</p>
+                                    </div>
+
+                                </div>
+                                <img src="images/foundation.png" alt="" class="stroke">
+                            </div>
+                            
+
+                        </div>
+                        <div class="row row2" data-aos="zoom-in-up" data-aos-duration="1500">
+                            <div class="expl-holder col-lg-6 col-md-6">
+                                <h2 class="lora font-weight-bold expl-header">How It Works</h2>
+                                <div class="features">
+                                    <div>
+                                        <img src="images/camera.svg" alt="" >
+                                    </div>
+                                    <div class="features-text">
+                                        <h6 class="font-weight-bold">Take a photo</h6>
+                                        <p>Take a photo of your face in natural lighting.</p>
+                                    </div>
+
+                                </div>
+                                <div class="features">
+                                    <div>
+                                        <img src="images/brush.svg" alt="">
+                                    </div>
+                                    <div class="features-text">
+                                        <h6 class="font-weight-bold">Find your make up shade</h6>
+                                        <p>We analyse your skin tone to find your accurate foundation, concealer or powder shade across thousands of brands.</p>
+                                    </div>
+
+                                </div>
+                                <div class="features">
+                                    <div>
+                                        <img src="images/bag.svg" alt="">
+                                    </div>
+                                    <div class="features-text">
+                                        <h6 class="font-weight-bold">Shop for make up</h6>
+                                        <p>Shop for the best quality make up from over 2000 brands worlwide.</p>
+                                    </div>
+
+                                </div>
+                                <img src="images/foundation.png" alt="" class="stroke">
+                            </div>
+                            <div class="video-holder col-lg-6 col-md-6">
+                                <img src="images/gif-img.gif" alt="" class="sample">
+                            </div>
+                           
+
                         </div>
 
-                    </section>
-                        
-                </main>
-        
-                <footer>
-                    
-                </footer>
-        
-                
-        
-        
-        
-                <!-- jquery script -->
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-                <script src="jquery/jquery-3.4.1.min.js"></script>
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-                <script type="text/javascript" src="jquery/jquery-3.4.1.min.js"></script>
-        
-                <!-- bootstrap script -->
-                <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-                <script src="bootstrap/js/bootstrap.min.js"></script>
-        
-                <!-- Aos animation script -->
-                <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-                <script>
-                    AOS.init();
-                </script>
-        
-        
-                <script type="text/javascript" src="js/index.js"></script>
-        
-            </div>
-        </body>
+                    </div>
+                </section>
 
-    </html>
+                <!-- designs demo section -->
+                <section class="demo">
+                    <div class="demo-head-holder">
+                        <h2 class="lora font-weight-bold  text-center demo-expl">O-Fine Offers A Wide Range Of Benefits</h2>
+
+                    </div>
+                    <div class="demo-container" data-aos="zoom-in-up" data-aos-duration="1500">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            
+                            <div class="carousel-inner">
+                              <div class="carousel-item active" data-interval="80000">
+                                <div class="row">
+                                    <div class="details-holder col-md-6">
+                                        <h5 class="font-weight-bold">Intelligent Analyser</h5>
+                                        <p>Our highly intelligent skin scanner analyses your skin’s overtones and undertones to find you the best coverage </p>
+                                        <button class="view-btn">Click&nbsp;Image</button>
+                                    </div>
+                                    <div class="design-holder col-md-6">
+                                        <a href="images/first.jpg" class="swipebox" title="My Caption">
+                                            <img src="images/first.jpg" alt="image" class="img-fluid screens">
+                                        </a>
+        
+                                    </div>
+        
+                                </div>
+                              </div>
+                              <div class="carousel-item" data-interval="10000">
+                                <div class="row">
+                                    <div class="details-holder col-md-6">
+                                        <h5 class="font-weight-bold">Smart Suggest</h5>
+                                        <p>Smart suggest takes auto-recommendation to the next level. Get your makeup shade recommendation  across thousands of brands in no time </p>
+                                        <button class="view-btn">Click&nbsp;Image</button>
+                                    </div>
+                                    <div class="design-holder col-md-6">
+                                        <a href="images/second.jpg" class="swipebox" title="My Caption">
+                                            <img src="images/second.jpg" alt="image"  class="img-fluid screens">
+                                        </a>
+        
+                                    </div>
+        
+                                </div>
+                              </div>
+                              <div class="carousel-item" data-interval="10000">
+                                <div class="row">
+                                    <div class="details-holder col-md-6">
+                                        <h5 class="font-weight-bold">Buy on the go</h5>
+                                        <p>Save time and buy with ease anywhere you are. Save products to your wishlist and buy when ready..</p>
+                                        <button class="view-btn">Click&nbsp;Image</button>
+                                    </div>
+                                    <div class="design-holder col-md-6">
+                                        <a href="images/third.jpg" class="swipebox" title="My Caption">
+                                            <img src="images/third.jpg" alt="image"  class="img-fluid screens">
+                                        </a>
+        
+                                    </div>
+        
+                                </div>
+                              </div>
+                              <div class="carousel-item" data-interval="10000">
+                                <div class="row">
+                                    <div class="details-holder col-md-6">
+                                        <h5 class="font-weight-bold">Store-to-Door</h5>
+                                        <p>Discover a new world of online shopping. 
+                                            Shop in over 2000 stores worldwide at your doorstep in one click. Stay up to date with new store arrivals. </p>
+                                        <button class="view-btn">Click&nbsp;Image</button>
+                                    </div>
+                                    <div class="design-holder col-md-6">
+                                        <a href="images/fourth.jpg" class="swipebox" title="My Caption">
+                                            <img src="images/fourth.jpg" alt="image"  class="img-fluid screens">
+                                        </a>
+        
+                                    </div>
+        
+                                </div>
+                              </div>
+                              <div class="carousel-item" data-interval="10000">
+                                <div class="row">
+                                    <div class="details-holder col-md-6">
+                                        <h5 class="font-weight-bold">Virtual Makeover </h5>
+                                        <p>Our virtual try on feature lets you try on different makeup colours from face, lips and eyes before buying the perfect one for you</p>
+                                        <button class="view-btn">Click&nbsp;Image</button>
+                                    </div>
+                                    <div class="design-holder col-md-6">
+                                        <a href="images/fifth.jpg" class="swipebox" title="My Caption">
+                                            <img src="images/fifth.jpg" alt="image"  class="img-fluid screens">
+                                        </a>
+        
+                                    </div>
+        
+                                </div>
+                              </div>
+                              <div class="carousel-item" data-interval="10000">
+                                <div class="row">
+                                    <div class="details-holder col-md-6">
+                                        <h5 class="font-weight-bold">Real-Time Tracking</h5>
+                                        <p>Our Real-Time Locating System (RTLS) tracking give you up to the minute real time updates.</p>
+                                        <button class="view-btn">Click&nbsp;Image</button>
+                                    </div>
+                                    <div class="design-holder col-md-6">
+                                        <a href="images/sixth.jpg" class="swipebox" title="My Caption">
+                                            <img src="images/sixth.jpg" alt="image"  class="img-fluid screens">
+                                        </a>
+        
+                                    </div>
+        
+                                </div>
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon carousel-icons left" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon carousel-icons right" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                   
+
+                    
+                    
+                </section>
+
+                <!-- footer section -->
+                <footer>
+                    <div class="footer-notify text-center">
+                        <p class="font-weight-bold">GET NOTIFIED </p>
+                        <p>Sign up to get notified when O-fine launches.</p>
+                        <form action="" method="POST">
+                            <input type="email" class="email-input email-footer" placeholder="Enter Email" name="email">
+                            <input type="submit" value="NOTIFY ME" class="notify-btn" name="submit">
+                        </form>
+
+
+                    </div>
+                    <div class="footer-container container-fluid">
+                        
+                        <div class="row" data-aos="zoom-in-up" data-aos-duration="1500">
+                            <div class="col-lg-4 col-md-4 footer-cards">
+                                <div class="footer-holder rights-holder">
+                                    <p class="font-weight-bold">All Rights Reserved</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 footer-cards text-center">
+                                <div class="brand-holder"><a href="#home"><img src="images/footer-logo.svg" alt=""></a></div>
+                                <p>O-Fine helps you find your perfect foundation, concealer and powder shade easily, to give your skin the flawless finish it deserves</p>
+
+                            </div>
+                            <div class="col-lg-4 col-md-4 footer-cards text-center">
+                                <div  class="social-media footer-holder">
+                                    <p>
+                                        <i class="uil uil-twitter sm-icons"></i>
+                                        <i class="uil uil-facebook-f sm-icons"></i>
+                                        <i class="uil uil-linkedin-alt sm-icons"></i>
+                                        
+                                        
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </footer>
+                      
+            </main>
+    
+            <footer>
+                
+            </footer>
+    
+            
+    
+    
+    
+            <!-- jquery script -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="jquery/jquery-3.4.1.min.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script type="text/javascript" src="jquery/jquery-3.4.1.min.js"></script>
+
+            <!-- swipeboxscript -->
+            <script src="swipebox-master/src/js/jquery.swipebox.js"></script>
+            
+    
+            <!-- bootstrap script -->
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+            <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+            <!-- Aos animation script -->
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+                AOS.init();
+            </script>
+    
+    
+            <script type="text/javascript" src="js/index.js"></script>
+    
+        </div>
+    </body>
+
+</html>

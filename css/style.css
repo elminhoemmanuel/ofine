@@ -25,6 +25,8 @@ html, body{
 }
 
 
+
+
 /* navigation  */
 .brand-holder{
     padding: 2% 0 4% 8%;
@@ -157,7 +159,7 @@ html, body{
 /* demo section */
 
 .demo-head-holder{
-    padding: 9% 0;
+    padding: 2% 0;
 }
 
 .details-holder{
@@ -198,7 +200,8 @@ html, body{
 }
 
 .demo-expl{
-    padding-left: 7%;
+    padding:0% 2% 0% 7%;
+    
 }
 
 .design-holder{
@@ -224,7 +227,7 @@ footer{
 .footer-notify{
     background-color: white;
     position: absolute;
-    left: 8%;
+    left: 12%;
     bottom: 68%;
     padding: 6% 13% ;
     width: 75%;
@@ -356,7 +359,8 @@ footer{
     }
 
     .sample{
-        width: 80%;
+        width: 95%;
+        height: 420%;
     }
 
     .design-holder{
